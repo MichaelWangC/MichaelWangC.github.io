@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>有安全感的牛人</title>
+  
+  <subtitle>Now, learn more, think more</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://michaelwangc.github.io/"/>
+  <updated>2020-01-30T13:58:53.990Z</updated>
+  <id>https://michaelwangc.github.io/</id>
+  
+  <author>
+    <name>MichaelWangC</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android通过配置Flavors修改应用图标</title>
+    <link href="https://michaelwangc.github.io/2020/01/30/android-flover/"/>
+    <id>https://michaelwangc.github.io/2020/01/30/android-flover/</id>
+    <published>2020-01-30T13:30:30.000Z</published>
+    <updated>2020-01-30T13:58:53.990Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;遇到的问题&quot;&gt;&lt;a href=&quot;#遇到的问题&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="开发技能" scheme="https://michaelwangc.github.io/categories/%E5%BC%80%E5%8F%91%E6%8A%80%E8%83%BD/"/>
+    
+      <category term="Android" scheme="https://michaelwangc.github.io/categories/%E5%BC%80%E5%8F%91%E6%8A%80%E8%83%BD/Android/"/>
+    
+    
+      <category term="Android" scheme="https://michaelwangc.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://michaelwangc.github.io/2020/01/21/hello-world/"/>
+    <id>https://michaelwangc.github.io/2020/01/21/hello-world/</id>
+    <published>2020-01-21T06:40:52.599Z</published>
+    <updated>2020-01-30T13:58:31.765Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="开发技能" scheme="https://michaelwangc.github.io/categories/%E5%BC%80%E5%8F%91%E6%8A%80%E8%83%BD/"/>
+    
+      <category term="iOS" scheme="https://michaelwangc.github.io/categories/%E5%BC%80%E5%8F%91%E6%8A%80%E8%83%BD/iOS/"/>
+    
+    
+      <category term="iOS" scheme="https://michaelwangc.github.io/tags/iOS/"/>
+    
+  </entry>
+  
+</feed>

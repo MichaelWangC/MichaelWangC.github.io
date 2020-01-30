@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Android通过配置Flavors修改应用图标</title>
+      <link href="/2020/01/30/android-flover/"/>
+      <url>/2020/01/30/android-flover/</url>
+      
+        <content type="html"><![CDATA[<h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p>由于项目需求，有个客户要求对产品的图标和启动页面进行了个性化，这样就引发了两个打包问题：</p><p>1.需要单独给该客户打包</p><p>2.打包过程过于繁琐。打完一个包后，还要替换图标再打另一个。</p><p>这对我习惯偷懒的我，是不能容忍的。所以只能寻到一些自动化且多渠道打包的方案。而Android Studio相当给力的提供Flavors这一解决方案。</p><h2 id="什么是Flavor"><a href="#什么是Flavor" class="headerlink" title="什么是Flavor"></a>什么是Flavor</h2><p>Flavor直译过来是“风味/口味”的意思，官方这样命名，在我看来，就是将Android应用看做成一道菜，然后通过不同“口味”的配置，最终可以呈现出的多种不同“风味”的菜品。这个命名已符合Android一贯的尿性，从Android历代版本的版本代号就不难看出，什么蛋糕、甜甜圈、泡芙、棒棒糖、奥利奥以及最最新的馅饼，都是和吃相关的，只是一群多么喜欢吃的团队啊。</p><p>现在拉回正题，相对而言，我更喜欢将Flavor称为“渠道”，这样对我而言更好理解一些。而配置渠道Flavor的方式非常简单，只需要将他们添加到productFlavors{}代码块中就可以了。而好巧不巧，defaultConfig居然是productFlavors的子类，每个渠道Flavor的配置都支持与defaultConfig相同的属性，所以们可以在defaultConfig中配置每个渠道Flavor的基础配置，如applicationId，而每个渠道Flavor也可以修改这些配置。所以渠道中的配置会覆盖defaultConfig中的配置，但是如果在buildType中有相同的配置，渠道Flavor中的配置会被覆盖，具体配置的优先级如下：</p><p>按优先级从高到低: buildType-&gt;Flavor-&gt;defaultConfig</p><h2 id="使用Flavors修改图标"><a href="#使用Flavors修改图标" class="headerlink" title="使用Flavors修改图标"></a>使用Flavors修改图标</h2><p>了解了Flavor的基本信息后，我们就可以开始动手解决问题了。</p><h2 id="遇到的问题-1"><a href="#遇到的问题-1" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p>1.flavorDimensions</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 开发技能 </category>
+          
+          <category> Android </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Android </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2020/01/21/hello-world/"/>
       <url>/2020/01/21/hello-world/</url>
@@ -11,6 +38,20 @@
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
       
       
+      <categories>
+          
+          <category> 开发技能 </category>
+          
+          <category> iOS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> iOS </tag>
+            
+        </tags>
       
     </entry>
     
