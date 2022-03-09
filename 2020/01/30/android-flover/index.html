@@ -105,7 +105,7 @@
 <p>1.需要单独给该客户打包</p>
 <p>2.打包过程过于繁琐。打完一个包后，还要替换图标再打另一个。</p>
 <p>这对我习惯偷懒的我，是不能容忍的。所以只能寻到一些自动化且多渠道打包的方案。而Android Studio相当给力的提供Flavors这一解决方案。</p>
-<h2 id="什么是Flavor"><a href="#什么是Flavor" class="headerlink" title="什么是Flavor"></a>什么是Flavor</h2><p>Flavor直译过来是“风味/口味”的意思，官方这样命名，在我看来，就是将Android应用看做成一道菜，然后通过不同“口味”的配置，最终可以呈现出的多种不同“风味”的菜品。这个命名已符合Android一贯的尿性，从Android历代版本的版本代号就不难看出，什么蛋糕、甜甜圈、泡芙、棒棒糖、奥利奥以及最最新的馅饼，都是和吃相关的，只是一群多么喜欢吃的团队啊。</p>
+<h2 id="什么是Flavor"><a href="#什么是Flavor" class="headerlink" title="什么是Flavor"></a>什么是Flavor</h2><p>Flavor直译过来是“风味/口味”的意思，在我看来，官方这样命名，就是将Android应用看做成一道菜，可以通过不同“口味”的配置，最终可以呈现出的多种不同“风味”的菜品。这个命名已符合Android一贯的尿性，从Android历代版本的版本代号就不难看出，什么蛋糕、甜甜圈、泡芙、棒棒糖、奥利奥以及最最新的馅饼，都是和吃相关的，只是一群多么喜欢吃的团队啊。</p>
 <p>现在拉回正题，相对而言，我更喜欢将Flavor称为“渠道”，这样对我而言更好理解一些。而配置渠道Flavor的方式非常简单，只需要将他们添加到productFlavors{}代码块中就可以了。而好巧不巧，defaultConfig居然是productFlavors的子类，每个渠道Flavor的配置都支持与defaultConfig相同的属性，所以们可以在defaultConfig中配置每个渠道Flavor的基础配置，如applicationId，而每个渠道Flavor也可以修改这些配置。所以渠道中的配置会覆盖defaultConfig中的配置，但是如果在buildType中有相同的配置，渠道Flavor中的配置会被覆盖，具体配置的优先级如下：</p>
 <p>按优先级从高到低: buildType-&gt;Flavor-&gt;defaultConfig</p>
 <h2 id="使用Flavors修改图标"><a href="#使用Flavors修改图标" class="headerlink" title="使用Flavors修改图标"></a>使用Flavors修改图标</h2><p>了解了Flavor的基本信息后，我们就可以开始动手解决问题了。</p>
@@ -120,7 +120,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://michaelwangc.github.io/2020/01/30/android-flover/" data-id="ck60t7znz0007cs2rc7zb9tzp"
+      <a data-url="https://michaelwangc.github.io/2020/01/30/android-flover/" data-id="cl0jjc2630002op1hbd6u3zc4"
         class="article-share-link">分享</a>
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android/" rel="tag">Android</a></li></ul>
@@ -209,7 +209,7 @@
     <ul class="list-inline">
       <li>
         &copy;
-        2020-2021
+        2020-2022
         MichaelWangC
       </li>
       <li>
