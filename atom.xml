@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://michaelwangc.github.io/"/>
-  <updated>2022-03-09T12:25:56.268Z</updated>
+  <updated>2022-07-25T12:20:23.570Z</updated>
   <id>https://michaelwangc.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://michaelwangc.github.io/2020/01/30/android-flover/"/>
     <id>https://michaelwangc.github.io/2020/01/30/android-flover/</id>
     <published>2020-01-30T13:30:30.000Z</published>
-    <updated>2022-03-09T12:25:56.268Z</updated>
+    <updated>2022-07-25T12:20:23.570Z</updated>
     
     <summary type="html">
     
@@ -42,35 +42,6 @@
     
     
       <category term="Android" scheme="https://michaelwangc.github.io/tags/Android/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://michaelwangc.github.io/2020/01/21/hello-world/"/>
-    <id>https://michaelwangc.github.io/2020/01/21/hello-world/</id>
-    <published>2020-01-21T06:40:52.000Z</published>
-    <updated>2020-01-30T13:58:31.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="开发技能" scheme="https://michaelwangc.github.io/categories/%E5%BC%80%E5%8F%91%E6%8A%80%E8%83%BD/"/>
-    
-      <category term="iOS" scheme="https://michaelwangc.github.io/categories/%E5%BC%80%E5%8F%91%E6%8A%80%E8%83%BD/iOS/"/>
-    
-    
-      <category term="iOS" scheme="https://michaelwangc.github.io/tags/iOS/"/>
     
   </entry>
   
